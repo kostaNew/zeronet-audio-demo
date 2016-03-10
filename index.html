@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>audio.js in ZeroNet</title>
+    <script src="audiojs/audio.min.js"></script>
+    <link rel="stylesheet" href="includes/index.css" media="screen">
+    <script>
+      audiojs.events.ready(function() {
+        audiojs.createAll();
+      });
+    </script>
+  </head>
+  <body>
+    <header>
+      <h1>audio.js in ZeroNet</h1>
+    </header>
+	<div>
+		<strong>This is example of 0site with audio and optional file.</strong>
+	<div/>
+	<div>
+		Johnny Dodds Trio<br/>
+		Little Bits<br/>
+		Written by Jimmy Blythe (1901-1931)<br/>
+		Performed by Johnny Dodds Trio<br/>
+		Recording date: 1929<br/>
+		Cat Number: Hot Jazz Club Of America HC 42<br/>
+		Duration: 03'07"<br/>
+		License: Public Domain<br/>
+		<strong>(This file load always)</strong>
+	<div>
+    <audio src="audio/Little_Bits.mp3" preload="auto"></audio>
+	<div>
+		Eddie Lang<br/>
+		April Kisses<br/>
+		Written by Eddie Lang (1904 - 1933)<br/>
+		Performed by Ed Lang (guitar solo with piano)<br/>
+		Recording date: n/a<br/>
+		Cat Number: Okeh 40807<br/>
+		Duration: 03'06"<br/>
+		License: Public Domain<br/>
+		<strong>(This file load optional)</strong>
+	<div>
+    <audio src="audio_optional/April_Kisses.mp3" preload="none"></audio>
+  </body>
+</html>

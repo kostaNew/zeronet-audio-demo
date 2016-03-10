@@ -1,0 +1,52 @@
+{
+ "address": "1B3MjcF3y7UiSMgevjnso5JVNFMz2ci2ME",
+ "description": "",
+ "files": {
+  "audio/Little_Bits.mp3": {
+   "sha512": "d2941bb12378930774fd49a2d331f90ff629d366b234877048161e8f6778bc59",
+   "size": 3747637
+  },
+  "audiojs/audio.min.js": {
+   "sha512": "d0f208b2b6088409ef37cd08fad1101456323bf2f95c94c336b16d86a08a8737",
+   "size": 15980
+  },
+  "audiojs/audiojs.swf": {
+   "sha512": "53b011d8fc6b16bcce4b466e1d1e101959b4410d3383f113869ed68fd9724b83",
+   "size": 1644
+  },
+  "audiojs/player-graphics.gif": {
+   "sha512": "3385d2f1442ad89ee8e0c79fbe01cad4cdf2e32f7026f3146e2e63d5045797fa",
+   "size": 4499
+  },
+  "includes/index.css": {
+   "sha512": "abc2b489a2e36d554342d4494053a0cf582d764bb4431a0f3e5baccdbc63a6b1",
+   "size": 3223
+  },
+  "index.html": {
+   "sha512": "286a4f4dbdfab627cd1e25cfce08e99fa21d50a66eb8ff193435e202f587df82",
+   "size": 1274
+  }
+ },
+ "files_optional": {
+  "audio_optional/April_Kisses.mp3": {
+   "sha512": "1f5d1f8810d9fe98c155860820049869b914d516aae0c74193107d0fc9be0028",
+   "size": 3632804
+  }
+ },
+ "ignore": "",
+ "inner_path": "content.json",
+ "modified": 1457634995.503573,
+ "optional": "audio_optional/.*",
+ "postmessage_nonce_security": true,
+ "sign": [
+  52138162539636499732429617311925507653106586998468227547308210706053371243087,
+  89432408929989848087251258926827440790818893003490806280301896748963560556973
+ ],
+ "signers_sign": "G70DylXV/jvPGbyMGuAyQjRWVRWpSrb/yjpYimKPp3LuaQCRlFn0k1QvWN2wEvRKhpuw/jkxQ9tNDRLmtCq12So=",
+ "signs": {
+  "1B3MjcF3y7UiSMgevjnso5JVNFMz2ci2ME": "G2CS9hYuyPzMEn9nrFbYLlgF8adSM+uhKQb/t9DFtGuHDnAaXZc6MncX8ntS3MuEurBcfozRMAEUx9BEpj8EQBw="
+ },
+ "signs_required": 1,
+ "title": "1B3MjcF3y7UiSMgevjnso5JVNFMz2ci2ME - ZeroNet_",
+ "zeronet_version": "0.3.6"
+}
